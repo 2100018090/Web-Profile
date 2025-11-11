@@ -71,7 +71,7 @@ const Sertifikat = () => {
     >
       <div className="xl:mb-17.5 mb-5">
         <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
-          <p className="section-title ">Portfolio</p>
+          <p className="section-title ">Sertifikat</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
             Berikut kumpulan sertifikat yang saya peroleh sebagai bukti kemampuan saya dalam membangun aplikasi web yang responsif, efisien, dan berorientasi.
           </p>
