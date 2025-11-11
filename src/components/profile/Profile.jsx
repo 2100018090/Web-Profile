@@ -40,7 +40,7 @@ const Profile = () => {
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className="text-justify">
-              Saya lulusan Informatika Universitas Ahmad Dahlan dengan minat pada pengembangan web menggunakan Laravel dan Spring Boot. Pernah mengikuti program Bangkit 2024 (Cloud Computing) serta magang di Seven Inc, di mana saya mengembangkan aplikasi berbasis Laravel. Terbiasa mengelola database MySQL, autentikasi, dan validasi data. Siap terus belajar dan berkontribusi di bidang web development.
+              Saya pernah mengikuti program Bangkit 2024 (Cloud Computing), di mana saya mempelajari JavaScript Node.js, serta menjalani magang di Seven Inc dengan fokus pada pengembangan aplikasi menggunakan PHP Laravel. Terbiasa mengelola database MySQL, autentikasi, dan validasi data. Saya siap terus belajar dan berkontribusi di bidang web development.
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">

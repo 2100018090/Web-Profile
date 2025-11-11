@@ -9,6 +9,7 @@ import HappyClients from "../components/happyClients/HappyClients";
 import Testimonial from "../components/testimonial/Testimonial";
 import Contact from "../components/contact/Contact";
 import "../../index.css";
+import Sertifikat from "../components/sertifikat/Sertifikat";
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
         {/* <WorkProcess /> */}
         <Portfolio />
       </div>
-      {/* <Portfolio /> */}
+      <Sertifikat />
       {/* <div className="bg-gray-900">
         <WorkTogether />
       </div>
