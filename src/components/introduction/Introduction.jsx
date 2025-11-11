@@ -1,23 +1,22 @@
-import person from "../../assets/images/person.png";
+import person from "../../assets/images/foto gua.png";
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import CVFile from "../../assets/CV Muhammad Kus Prasetyo.pdf";
+
 
 // Information summary data
 const informationSummaryData = [
   {
     id: 1,
-    title: "Experience",
+    title: "Project",
     description: "15 Y.",
   },
   {
     id: 2,
     title: "Projects Completed",
     description: "250+",
-  },
-  {
-    id: 3,
-    title: "Happy Clients",
-    description: "58",
   },
 ];
 
@@ -35,28 +34,32 @@ const Introduction = () => {
               Muhammad Kus Prasetyo
             </span>
           </p>
-          <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance <span className="bg-highlight">UI/UX Designer</span>{" "}
-            and <span className="bg-highlight"> Developer</span> based in
-            London, England. I strives to build immersive and beautiful web
-            applications through carefully crafted code and user-centric design.
+          <p className="text-xs xxs:text-lg lg:text-[18px] my-6 text-justify">
+            Saya lulusan Informatika Universitas Ahmad Dahlan dengan minat pada pengembangan web menggunakan
+            <span className="bg-highlight"> Laravel </span> dan
+            <span className="bg-highlight"> Spring Boot</span>.
+            Pernah mengikuti program Bangkit 2024 (Cloud Computing) serta magang di Seven Inc,
+            di mana saya mengembangkan aplikasi berbasis Laravel.
+            Terbiasa mengelola database MySQL, autentikasi, dan validasi data.
+            Siap terus belajar dan berkontribusi di bidang web development.
           </p>
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:example@gmail.com"
+              href={CVFile}
+              download="CV_MuhammadPrasetyo.pdf"
             >
-              Download CV
+              <FontAwesomeIcon icon={faDownload} /> Download CV
             </a>
           </p>
         </div>
-        <div className="mx-auto lg:mx-0 relative">
+        {/* <div className="mx-auto lg:mx-0 relative">
           <div className="grid max-xxs:grid-flow-col grid-cols-3 w-fit mt-10 gap-1">
             {informationSummaryData.map((item) => (
               <InformationSummary key={item.id} item={item} />
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
       <div
         className={`max-w-134 w-full h-full max-lg:mx-auto aspect-[536/636] relative`}

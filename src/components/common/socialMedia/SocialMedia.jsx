@@ -1,18 +1,16 @@
 import {
-  faBehance,
-  faDribbble,
   faFacebookF,
   faInstagram,
   faLinkedin,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const socialIcons = [
-  { icon: faFacebookF, link: "#!" },
-  { icon: faDribbble, link: "#!" },
-  { icon: faInstagram, link: "#!" },
-  { icon: faLinkedin, link: "#!" },
-  { icon: faBehance, link: "#!" },
+  { icon: faFacebookF, link: "https://www.facebook.com/share/1CM9wEcQbS/" },
+  { icon: faInstagram, link: "https://www.instagram.com/onemoresit?igsh=MWMwN3kzN3h0azdueg==" },
+  { icon: faLinkedin, link: "https://linkedin.com/in/muhammad-kus-prasetyo-a00abb2a4" },
+  { icon: faGithub, link: "https://github.com/2100018090" },
 ];
 
 const SocialMedia = () => {

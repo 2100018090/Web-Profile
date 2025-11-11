@@ -1,7 +1,8 @@
-import person from "../../assets/images/person2.png";
+import person from "../../assets/images/foto bg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
+import CVFile from "../../assets/CV Muhammad Kus Prasetyo.pdf";
 
 const Profile = () => {
   return (
@@ -33,31 +34,20 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            I am Professional User Experience Designer
+            Saya seorang Programmer dan Pengembang Web.
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
-            <p className={``}>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences.
-            </p>
-            <p className="mt-3">
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services.
+            <p className="text-justify">
+              Saya lulusan Informatika Universitas Ahmad Dahlan dengan minat pada pengembangan web menggunakan Laravel dan Spring Boot. Pernah mengikuti program Bangkit 2024 (Cloud Computing) serta magang di Seven Inc, di mana saya mengembangkan aplikasi berbasis Laravel. Terbiasa mengelola database MySQL, autentikasi, dan validasi data. Siap terus belajar dan berkontribusi di bidang web development.
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">
             <a
-              className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 btn-primary text-xs xxs:text-[14px] sm:text-[16px]"
-              href="#!"
-            >
-              My Projects
-            </a>
-            <a
               className={`btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-picto-primary bg-white duration-300 transition-all hover:text-picto-primary  ms-4 text-xs xxs:text-[14px] sm:text-[16px]`}
-              href="#!"
+              href={CVFile}
+              download="CV_MuhammadPrasetyo.pdf"
             >
               <FontAwesomeIcon icon={faDownload} /> Download CV
             </a>

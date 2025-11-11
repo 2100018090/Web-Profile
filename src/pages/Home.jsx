@@ -20,10 +20,11 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-soft-white pt-30">
-        <WorkProcess />
+        {/* <WorkProcess /> */}
+        <Portfolio />
       </div>
-      <Portfolio />
-      <div className="bg-gray-900">
+      {/* <Portfolio /> */}
+      {/* <div className="bg-gray-900">
         <WorkTogether />
       </div>
       <div className="blog-background">
@@ -31,10 +32,10 @@ const Home = () => {
       </div>
       <div className="bg-soft-white">
         <Profession />
-      </div>
-      <HappyClients />
-      <Testimonial />
-      <Contact />
+      </div> */}
+      {/* <HappyClients />
+      <Testimonial /> */}
+      {/* <Contact /> */}
     </div>
   );
 };

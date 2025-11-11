@@ -12,11 +12,12 @@ const Projects = ({ data }) => {
         </p>
         <p
           style={{ lineHeight: "20px", letterSpacing: "0%" }}
-          className="text-gray-600 text-xs xxs:text-[14px] text-wrap"
+          className="text-gray-600 text-xs xxs:text-[14px] text-wrap text-justify"
         >
           {data?.description}
         </p>
-        <a
+
+        {/* <a
           href={data?.link}
           className="btn hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[16px] font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 mt-5 xs:py-5.75 px-6 max-sm:w-full"
         >
@@ -24,7 +25,7 @@ const Projects = ({ data }) => {
           <span className="ms-1 xs:ms-3">
             <FontAwesomeIcon icon={faArrowRight} size="l" className="" />
           </span>
-        </a>
+        </a> */}
         {/* </p> */}
       </div>
     </div>
