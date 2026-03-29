@@ -3,7 +3,7 @@ import "./introduction.css";
 import InformationSummary from "./InformationSummary";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import CVFile from "../../assets/CV Muhammad Kus Prasetyo.pdf";
+import CVFile from "../../assets/Muhammad Kus Prasetyo - CV.pdf";
 
 
 // Information summary data
