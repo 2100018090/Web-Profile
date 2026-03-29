@@ -1,4 +1,4 @@
-import person from "../../assets/images/foto_webprofile.jpeg";
+import person from "../../assets/images/Foto.png";
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
